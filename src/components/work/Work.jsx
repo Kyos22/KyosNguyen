@@ -56,7 +56,7 @@ export const Work = () => {
         {
             id: 1,
             title: 'blog',
-            date: 'October 2023',
+            date: 'March 2024',
             description: 'Youth x Time = Power',
             imageMain: blogimage1,
             details: `1 * 0 = 0
@@ -70,7 +70,7 @@ Tuổi trẻ được ví như một nguồn năng lượng vô tận, một th�
             id: 2,
             title: 'gallery',
             type: 'Books (Lifestyle)',
-            date: 'October 2023',
+            date: 'May 2024',
             description: 'Books (Lifestyle)',
             imageMain: bookself,
             image: [homo,imGifted,luattamthuc,garbageTruck],
@@ -81,7 +81,7 @@ Tuổi trẻ được ví như một nguồn năng lượng vô tận, một th�
             id: 3,
             title: 'gallery',
             type: 'Books (Detective)',
-            date: 'October 2023',
+            date: 'May 2024',
             description: 'Books (Detective)',
             imageMain: nghicanx,
             image: [nghicanx,naoko,vuanmang,namiya,tencuatrochoi,bachdahang,cuocdieuhanh],
@@ -91,7 +91,7 @@ Tuổi trẻ được ví như một nguồn năng lượng vô tận, một th�
         {
             id: 4,
             title: 'blog',
-            date: 'October 2023',
+            date: 'February 2024',
             description: 'The workspace significantly contributes to our work efficiency.',
             imageMain: blogimageMoitruonglamviec,
             details: `Không gian làm việc cũng góp phần không nhỏ vào hiệu suất công việc của chúng ta
