@@ -18,10 +18,10 @@ export const Section2 = () => {
         navigate(path);
     };
     useEffect(() => {
-        if (outletRef.current) {
+        if (outletRef.current && activeButton !== 'about') {
             outletRef.current.scrollIntoView({ behavior: 'smooth' });
         }
-    }, [location.pathname]);
+    }, [location.pathname, activeButton]);
     return (
         <div className='section2-container'>
             <div className='side1' >
