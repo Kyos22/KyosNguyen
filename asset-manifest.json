@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KyosNguyen/static/css/main.c36772f6.css",
-    "main.js": "/KyosNguyen/static/js/main.3965b0c4.js",
+    "main.js": "/KyosNguyen/static/js/main.c8bd2bf2.js",
     "static/js/453.85f347c4.chunk.js": "/KyosNguyen/static/js/453.85f347c4.chunk.js",
     "static/media/taphoanamiya.jpg": "/KyosNguyen/static/media/taphoanamiya.e5038ca2d6cddb13ca46.jpg",
     "static/media/tencuatrochoi.jpg": "/KyosNguyen/static/media/tencuatrochoi.7392d4ca466952cf082f.jpg",
@@ -111,11 +111,11 @@
     "static/media/vs22.png": "/KyosNguyen/static/media/vs22.a0baf0f26dd36b08f042.png",
     "index.html": "/KyosNguyen/index.html",
     "main.c36772f6.css.map": "/KyosNguyen/static/css/main.c36772f6.css.map",
-    "main.3965b0c4.js.map": "/KyosNguyen/static/js/main.3965b0c4.js.map",
+    "main.c8bd2bf2.js.map": "/KyosNguyen/static/js/main.c8bd2bf2.js.map",
     "453.85f347c4.chunk.js.map": "/KyosNguyen/static/js/453.85f347c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c36772f6.css",
-    "static/js/main.3965b0c4.js"
+    "static/js/main.c8bd2bf2.js"
   ]
 }
