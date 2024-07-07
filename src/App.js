@@ -18,7 +18,7 @@ function App() {
       <SetFavicon />
       <Router>
         <Routes>
-          <Route path='/testGithubPageReact' element={<Header />}>
+          <Route path='/KyosNguyen' element={<Header />}>
             <Route path='' element={<Section2 />}>
               <Route index element={<About />} />
               <Route path='resume' element={<Resume />} />

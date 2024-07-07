@@ -13,7 +13,7 @@ export const DetailWork = () => {
     const {card} = location.state || {};
     const [selectedCard, setSelectedCard] = useState(null);
     const closeModal = () => {
-        navigate('/testGithubPageReact/work');
+        navigate('/KyosNguyen/work');
     }
      const handleOutsideClick = (event) => {
          if (event.target.className === 'modal1') {

@@ -12,7 +12,7 @@ export const Gallery = () => {
     const {card} = location.state || {};
     const [selectedCard, setSelectedCard] = useState(null);
     const closeModal = () => {
-        navigate('/testGithubPageReact/blog');
+        navigate('/KyosNguyen/blog');
     }
     const handleOutsideClick = (event) => {
         if (event.target.className === 'modal') {

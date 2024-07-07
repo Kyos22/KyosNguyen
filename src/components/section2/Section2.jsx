@@ -10,7 +10,7 @@ export const Section2 = () => {
 
     useEffect(() => {
         const path = location.pathname.split('/').pop();
-        setActiveButton(path === '' || path === 'testGithubPageReact' ? 'about' : path);
+        setActiveButton(path === '' || path === 'KyosNguyen' ? 'about' : path);
     }, [location.pathname]);
 
     const handleNavigate = (path, buttonName) => {
@@ -27,31 +27,31 @@ export const Section2 = () => {
             <div className='side1' >
                 <ul>
                     <li
-                        onClick={() => handleNavigate('/testGithubPageReact', 'about')}
+                        onClick={() => handleNavigate('/KyosNguyen', 'about')}
                         className={activeButton === 'about' ? 'active' : ''}
                     >
                         <a>About</a>
                     </li>
                     <li
-                        onClick={() => handleNavigate('/testGithubPageReact/resume', 'resume')}
+                        onClick={() => handleNavigate('/KyosNguyen/resume', 'resume')}
                         className={activeButton === 'resume' ? 'active' : ''}
                     >
                         <a>Resume</a>
                     </li>
                     <li
-                        onClick={() => handleNavigate('/testGithubPageReact/work', 'work')}
+                        onClick={() => handleNavigate('/KyosNguyen/work', 'work')}
                         className={activeButton === 'work' ? 'active' : ''}
                     >
                         <a>Work</a>
                     </li>
                     <li
-                        onClick={() => handleNavigate('/testGithubPageReact/blog', 'blog')}
+                        onClick={() => handleNavigate('/KyosNguyen/blog', 'blog')}
                         className={activeButton === 'blog' ? 'active' : ''}
                     >
                         <a>Blog</a>
                     </li>
                     <li
-                        onClick={() => handleNavigate('/testGithubPageReact/contact', 'contact')}
+                        onClick={() => handleNavigate('/KyosNguyen/contact', 'contact')}
                         className={activeButton === 'contact' ? 'active' : ''}
                     >
                         <a>Contact</a>
