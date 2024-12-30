@@ -34,6 +34,10 @@ import drawhousega from '../images/draws/draw-house-ga.jpg';
 import drawtapve from '../images/draws/draw-tapve.jpg';
 import drawguitar from '../images/draws/drawGuitar.jpg';
 import drawtrain from '../images/draws/draw-train.jpg';
+import archi1 from '../images/draws/artchi1.jpg';
+import archi2 from '../images/draws/archi2.jpg';
+import archi3 from '../images/draws/archi3.jpg';
+import archi4 from '../images/draws/archi4.jpg';
 
 import piano from '../images/sportandmusic/piano.jpg';
 import guitar from '../images/sportandmusic/guitar.jpg';
@@ -42,6 +46,10 @@ import guitarCustom from '../images/sportandmusic/guitarCustom.jpg';
 import basket from '../images/sportandmusic/basketball.jpg';
 import gym from '../images/sportandmusic/gym.jpg';
 import billard from '../images/sportandmusic/billard.jpg';
+import legend1 from '../images/sportandmusic/legend1.jpg';
+import legend3 from '../images/sportandmusic/legend3.jpg';
+import bungcan from '../images/sportandmusic/bungcan.png';
+import scooter from '../images/sportandmusic/scooter.png';
 
 export const Work = () => {
     const navigate = useNavigate();
@@ -117,9 +125,9 @@ Most importantly, everyone should find a working style that suits them. Whether 
             title: 'gallery',
             type: 'Drawing/Sketch',
             date: 'October 2023',
-            description: 'Drawing/Sketch',
+            description: 'Drawing/Sketch (zoom in to view detail)',
             imageMain: drawtrain,
-            image: [drawnhavip1,drawnhavip2,drawnhavip3,drawnhavip4,drawnhavip5,drawnhavip6,drawnhavip7,drawtrain,drawguitar,drawhousecui1,drawhousega,drawtapve],
+            image: [drawnhavip1,drawnhavip2,drawnhavip3,drawnhavip4,drawnhavip5,drawnhavip6,drawnhavip7,drawtrain,drawguitar,drawhousecui1,drawhousega,drawtapve,archi1,archi2,archi3,archi4],
            
             details: 'This is a detailed description of the Showroom Management System...'
         },
@@ -130,7 +138,7 @@ Most importantly, everyone should find a working style that suits them. Whether 
             date: 'October 2023',
             description: 'Music/Sport',
             imageMain: guitar,
-            image: [piano,guitar,cajon,guitarCustom,basket,gym,billard],
+            image: [piano,guitar,cajon,guitarCustom,basket,gym,billard,legend1,legend3,bungcan,scooter],
            
             details: 'This is a detailed description of the Showroom Management System...'
         },

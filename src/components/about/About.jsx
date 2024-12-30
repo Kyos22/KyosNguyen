@@ -18,10 +18,10 @@ export const About = () => {
                     <img src={avatar2} alt="" />
                 </div>
                 <div className='content-card' data-aos="fade-right">
-                    <h1>Visit my portfolio & hire me</h1>
+                    <h1>Visit my portfolio & hire me (new updated 30/12/2024)</h1>
                     <h2>About Me</h2>
                     <div className='p-tag'>
-<p>I am a fullstack developer with several years of experience. Thanks to my strong self-learning ability and passion for programming and design, I have the capability to create and develop cross-platform websites for both mobile and web applications.</p>
+<p>I am a fullstack & game developer, project manager with several years of experience. Thanks to my strong self-learning ability and passion for programming and design, I have the capability to create and develop cross-platform websites for both mobile and web applications.</p>
                     </div>
                     <div className='service'>
                         <label htmlFor=""><i class='bx bx-check' style={{color:'#c4cfde'}}  ></i> Web Design Full Stack</label>

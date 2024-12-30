@@ -1,7 +1,8 @@
 import '../bannerSub/BannerSub.css';
 
 import React from 'react'
-import image from '../images/avatar-swe.png';
+import image from '../images/kyos-1.jpg';
+// import image from '../images/avatar-swe.png';
 import { Service } from '../service/Service';
 export const BannerSub = () => {
   const showAlert = (event) => {

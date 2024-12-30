@@ -16,7 +16,7 @@ const Header = () => {
   const [age,setAge] = useState(0);
   useEffect(()=>{
     const currentYear = new Date().getFullYear();
-    const age = currentYear - 2003;
+    const age = currentYear - 2002;
     setAge(age);
   })
   return (
@@ -38,7 +38,7 @@ const Header = () => {
                   </div>
                   <div className="conent-header1"  data-aos="zoom-out">
                     <h1>Kyos Nguyen</h1>
-                    <p>I am a Fullstack Developer</p>
+                    <p>I am a Fullstack & Game Developer</p>
                     <ul>
                       <li><a href="https://www.facebook.com/profile.php?id=100013789689193"><i class='bx bxl-facebook' style={{color:'#c4cfde'}}  ></i></a></li>
                       <li><a href="https://www.instagram.com/kyos_oarsis.2202/"><i class='bx bxl-instagram' style={{color:'#c4cfde'}}  ></i></a></li>
