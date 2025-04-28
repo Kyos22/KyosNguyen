@@ -28,7 +28,7 @@ export const About = () => {
                         <label htmlFor=""><i class='bx bx-check' style={{color:'#c4cfde'}}  ></i> Design System Data Architect</label>
                         <label htmlFor=""><i class='bx bx-check' style={{color:'#c4cfde'}}  ></i> 24/7 support</label>
                     </div>
-                    <a href={`${process.env.PUBLIC_URL}/NGUYENTHANHCONG_CV.pdf`} download>Download My CV <i className='bx bxs-download' style={{color:'#ff014f'}}></i></a>
+                    <a href={`${process.env.PUBLIC_URL}/NGUYENTHANHCONG_CV_DEVELOPER.pdf`} download>Download My CV <i className='bx bxs-download' style={{color:'#ff014f'}}></i></a>
                 </div>
             </div>
             {/* ============================================================================================ */}
